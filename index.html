@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Cococha Fotografía</title>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+		<!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <!--estilo propio-->
+	    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	    <!--social media buttons library-->
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<!--HEADER-->
+			<header>
+				<div class="row menu">
+				<!--NAV SUPERIOR-->
+		        	<nav class="col-xs-12 col-sm-12 col-md-12 bar">
+			            <ul class="nav navbar-nav pull-right borde-nav">
+			              <li>
+			                <a href="#">HOME</a>
+			              </li>
+			              <li>
+			                <a href="#">COCOCHA</a>
+			              </li>
+			              <li>
+			              	<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GALERÍA<span class="caret"></span>
+								<ul class="dropdown-menu">
+								    <li><a href="perros.html">Woof!</a></li>
+								    <li role="separator" class="divider"></li>
+								    <li><a href="gatos.html">Meow!</a></li>
+								</ul>
+			              	</a>
+			              </li>
+			              <li>
+			                <a href="#">BLOG</a>
+			              </li>
+			              <li>
+			              	<a href="#" data-toggle="modal" data-target="#myModal">CONTACTO</a>
+			              </li>
+			              <!--MODAL-->
+			              	<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title">Modal title</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>One fine body&hellip;</p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							        <button type="button" class="btn btn-primary">Save changes</button>
+							      </div>
+							    </div><!-- /.modal-content -->
+							  </div><!-- /.modal-dialog -->
+							</div><!-- /.modal -->
+			            </ul>
+					</nav><!--fin nav superior-->
+				</div><!--fin menu-->
+				<div class="row logo">
+					<div class="col-md-12">
+						<img class="img-responsive center-block" src="img/logo_cococha.png" alt="logo"/>
+					</div>
+				</div><!--fin row logo-->
+			</header>
+			<!--FIN HEADER-->
+			<main>
+				<section class="row slide bordeymargen">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						  <!-- Indicators -->
+						  <ol class="carousel-indicators">
+						    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+						    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+						  </ol>
+
+						  <!-- Wrapper for slides -->
+						  <div class="carousel-inner" role="listbox">
+						    <div class="item active">
+						      <img class="img-responsive center-block" src="img/enero2017_227.png" alt="foto">
+						    </div><!--finaliza item-->
+						    <div class="item">
+						      <img class="img-responsive center-block" src="img/enero2017_466.png" alt="foto">
+						    </div><!--finaliza item-->
+						    <div class="item">
+						      <img class="img-responsive center-block" src="img/enero2017_484.png" alt="foto">
+						    </div><!--finaliza item-->
+						  </div><!--finaliza carousel-inner-->
+
+						  <!-- Controls -->
+						  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+					</div>
+				</section><!--termina section slide-->
+				<section class="row galeria bordeymargen">
+					<div class="col-md-6">
+				    	<div class="thumbnail non-border dog">
+				    		<a href="perros.html"><img src="img/thumbnail_perros.png" alt="foto de perro"/></a>
+				    	</div><!--fin thumbnail-->
+					</div>
+					<div class="col-md-6">
+						<div class="thumbnail non-border cat">
+							<a href="#"><img src="img/thumbnail_gatos.png" alt="foto de gato"/></a>
+						</div><!--fin thumbnail-->
+					</div><!--termina gatos-->
+				</section><!--termina section galeria-->
+				<section class="row comentarios bordeymargen">
+					<div class="col-md-4">
+						<ul class="media-list">
+						  <li class="media">
+						    <div class="media-left">
+						      <a href="#">
+						        <img class="media-object" src="img/women_avatar.png" alt="foto de mujer">
+						      </a>
+						    </div>
+						    <div class="media-body">
+						      <h4 class="media-heading">Caro</h4>
+						      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel aliquam cupiditate magnam laudantium nostrum ducimus, consectetur, neque distinctio pariatur quisquam eum excepturi!</p>
+						    </div>
+						  </li>
+						</ul><!--finaliza ul media-->
+					</div>
+					<div class="col-md-4">
+						<ul class="media-list">
+						  <li class="media">
+						    <div class="media-left">
+						      <a href="#">
+						        <img class="media-object" src="img/women_avatar2.png" alt="foto de mujer">
+						      </a>
+						    </div>
+						    <div class="media-body">
+						      <h4 class="media-heading">Mariana</h4>
+						      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						    </div>
+						  </li>
+						</ul><!--finaliza ul media-->
+					</div>
+					<div class="col-md-4">
+						<ul class="media-list">
+						  <li class="media">
+						    <div class="media-left">
+						      <a href="#">
+						        <img class="media-object" src="img/women_avatar3.png" alt="foto de mujer">
+						      </a>
+						    </div>
+						    <div class="media-body">
+						      <h4 class="media-heading">Julieta</h4>
+						      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel aliquam cupiditate magnam laudantium nostrum ducimus, consectetur, neque distinctio pariatur quisquam eum excepturi!</p>
+						    </div>
+						  </li>
+						</ul><!--finaliza ul media-->
+					</div>
+				</section><!--termina section comentarios-->
+			</main>
+			<footer>
+				<div class="row">
+					<div class="col-md-12">
+						<a href="https://facebook.com/cococha.fotografia" class="fa fa-facebook"></a>
+						<a href="https://instagram.com/cococha.fotografia" class="fa fa-instagram"></a>
+					</div>
+				</div>
+
+			</footer>
+		</div><!--fin container-->
+
+	<!--JavaScript-->
+		<script src="js/jquery.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script type="text/javascript"> $('#myModal').on('shown.bs.modal', function () {  $('#myInput').focus() })</script>
+	</body>
+</html>

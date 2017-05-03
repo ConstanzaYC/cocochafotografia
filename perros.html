@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Cococha Fotografía | Perros</title>
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+		<!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet">
+	    <!--estilo propio-->
+	    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	</head>
+	<body>
+		<div class="container">
+			<!--HEADER-->
+			<header>
+				<div class="row menu">
+				<!--NAV SUPERIOR-->
+		        	<nav class="col-xs-12 col-sm-12 col-md-12 bar">
+			            <ul class="nav navbar-nav pull-right borde-nav">
+			              <li>
+			                <a href="index.html">HOME</a>
+			              </li>
+			              <li>
+			                <a href="#">COCOCHA</a>
+			              </li>
+			              <li>
+			              	<a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">GALERÍA<span class="caret"></span>
+								<ul class="dropdown-menu">
+								    <li><a href="perros.html">Woof!</a></li>
+								    <li role="separator" class="divider"></li>
+								    <li><a href="gatos.html">Meow!</a></li>
+								</ul>
+			              	</a>
+			              </li>
+			              <li>
+			                <a href="#">BLOG</a>
+			              </li>
+			              <li>
+			              	<a href="#" data-toggle="modal" data-target="#myModal">CONTACTO</a>
+			              </li>
+			              <!--MODAL-->
+			              	<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							        <h4 class="modal-title">Modal title</h4>
+							      </div>
+							      <div class="modal-body">
+							        <p>One fine body&hellip;</p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							        <button type="button" class="btn btn-primary">Save changes</button>
+							      </div>
+							    </div><!-- /.modal-content -->
+							  </div><!-- /.modal-dialog -->
+							</div><!-- /.modal -->
+			            </ul>
+					</nav><!--fin nav superior-->
+				</div><!--fin menu-->
+				<div class="row logo">
+					<div class="col-md-12">
+						<img class="img-responsive center-block" src="img/logo_cococha.png" alt="logo"/>
+					</div>
+				</div><!--fin row logo-->
+			</header>
+			<!--FIN HEADER-->
+			<main>
+				<div class="row">
+					<h2 class="col-md-12 perro">WOOF!</h2>
+				</div>
+				<div class="row galeria">
+					<div class="col-md-4">
+					    <div class="thumbnail">
+						      <img src="img/thumbnail_perros.png" alt="foto de corgi"/>
+						</div><!--cierra thumbnail-->
+					</div>
+					<div class="col-md-4">
+					    <div class="thumbnail">
+						      <img src="img/enero2017_466_thumbnail.png" alt="foto de corgi"/>
+						</div><!--cierra thumbnail-->
+					</div>
+					<div class="col-md-4">
+					    <div class="thumbnail">
+						      <img src="img/cachorritocorrentino_thumbnail.png" alt="foto de corgi"/>
+						</div><!--cierra thumbnail-->
+					</div>
+				</div><!--fin row galeria-->
+				<div class="row galeria">
+					<div class="col-md-4">
+					    <div class="thumbnail">
+						      <img src="img/thumbnail_perros.png" alt="foto de corgi"/>
+						</div><!--cierra thumbnail-->
+					</div>
+					<div class="col-md-4">
+					    <div class="thumbnail">
+						      <img src="img/thumbnail_perros.png" alt="foto de corgi"/>
+						</div><!--cierra thumbnail-->
+					</div>
+					<div class="col-md-4">
+					    <div class="thumbnail">
+						      <img src="img/thumbnail_perros.png" alt="foto de corgi"/>
+						</div><!--cierra thumbnail-->
+					</div>
+				</div><!--fin row galeria-->
+			</main>
+		</div><!--fin container-->
+		<!--JavaScript-->
+		<script src="js/jquery.min.js"></script>
+	    <script src="js/bootstrap.min.js"></script>
+	    <script type="text/javascript"> $('#myModal').on('shown.bs.modal', function () {  $('#myInput').focus() })</script>
+	</body>
+</html>
